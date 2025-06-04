@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# QR Code Generator - Projeto Ecosrev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visão Geral
 
-## Available Scripts
+Este é um componente de gerador de QR Code desenvolvido como parte do Projeto Integrador **Ecosrev**. A ferramenta permite a geração de QR Codes contendo informações sobre pontos de recompensa para usuários do sistema Ecosrev.
 
-In the project directory, you can run:
+## Sobre o Ecosrev
 
-### `npm start`
+O Ecosrev é um projeto integrador focado em sustentabilidade e incentivo a práticas ecológicas. O sistema recompensa usuários por suas ações sustentáveis através de pontos que podem ser trocados por benefícios.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Gera QR Codes únicos contendo informações sobre pontos do usuário
+- Inclui hash de segurança para garantir a autenticidade do código
+- Interface intuitiva e responsiva
+- Validação de entrada para garantir dados corretos
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js
+- API externa para geração de QR Codes
+- Algoritmo de hash para segurança
 
-### `npm run build`
+## Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório
+2. Instale as dependências:
+   ```
+   npm install
+   ```
+3. Execute o projeto:
+   ```
+   npm start
+   ```
+4. Acesse `http://localhost:3000` no navegador
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como Usar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Digite o número de pontos no campo de entrada
+2. Clique no botão "Gerar QR Code"
+3. O QR Code será exibido na tela
+4. Utilize o botão "Limpar" para gerar um novo QR Code
 
-### `npm run eject`
+## Integração com o Ecosrev
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este componente integra-se ao sistema principal do Ecosrev das seguintes maneiras:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Os QR Codes gerados são utilizados para validação de pontos no aplicativo principal
+- Permite que administradores do sistema gerem códigos de recompensa para distribuição
+- Facilita o sistema de troca de pontos por benefícios sustentáveis
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Próximos Passos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Implementação de histórico de QR Codes gerados
+- Adição de opções de personalização visual dos códigos
+- Integração direta com banco de dados do sistema principal
 
-## Learn More
+## Equipe
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este componente faz parte do Projeto Integrador Ecosrev, desenvolvido pela equipe:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Nome                          | GitHub                                               |
+| ----------------------------- | ---------------------------------------------------- |
+| *Gabriel Yamaoka Bernardes* | [YamaokaK](https://github.com/YamaokaK)                 |
+| *Gesley de Oliveira Rosa*   | [GesleyOliveira](https://github.com/GesleyOliveira)     |
+| *João Lucas Melo*          | [JoaoLucasMdO](https://github.com/JoaoLucasMdO)         |
+| *Laura Jane Antunes*        | [LauraJaneAntunes](https://github.com/LauraJaneAntunes) |
+| *Mariana Hirata*            | [marianakakimoto](https://github.com/marianakakimoto)   |
+| *Mateus Ferreira*           | [AEntropia](https://github.com/AEntropia)               |
