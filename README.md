@@ -6,7 +6,8 @@ Este é um componente de gerador de QR Code desenvolvido como parte do Projeto I
 
 ## Sobre o Ecosrev
 
-O Ecosrev é um projeto integrador focado em sustentabilidade e incentivo a práticas ecológicas. O sistema recompensa usuários por suas ações sustentáveis através de pontos que podem ser trocados por benefícios.
+O Ecosrev é um projeto integrador focado em sustentabilidade e incentivo a práticas ecológicas. O sistema recompensa usuários por suas ações sustentáveis através de pontos que podem ser trocados por benefícios. 
+Acesse em https://ecos-rev-pi.vercel.app/
 
 ## Funcionalidades
 
